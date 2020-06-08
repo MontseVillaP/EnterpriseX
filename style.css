@@ -1,0 +1,90 @@
+:root{
+	--dark: #1a1a1a;
+	--white:#ffffff;
+	--light-grey: #efefef;
+	--gold: #ecd5a7;
+    --grey:#BAC3C3 ;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+	background-color: var(--grey);
+}
+
+h1, h2,h3,h4,h5,h6, .navbar-brand{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500 !important;
+	line-height: 1.5 !important;
+}
+a{
+	color: var(--light);
+}
+
+a:hover{
+	color: var(--light);
+	text-decoration: none;
+}
+
+.bg-dark{
+	background-color: var(--dark) !important;
+}
+
+.bg-light{
+	background-color: var(--white) !important;
+}
+.bg-light-grey{
+	background-color: var(--light-grey);
+}
+
+.bg-gold{
+	background-color: var(--gold);
+}
+
+.text-gold{
+	color: var(--gold) !important;
+}
+
+.text-light{
+	color: var(--white) !important;
+}
+.navbar{
+	min-height: 5rem;
+
+}
+.navbar-toggler{
+	color: var(--light);
+}
+.nav-link{
+	color: var(--white);
+	text-transform: uppercase;
+	font-size: .8rem;
+}
+
+.btn-primary{
+	background-color: var(--gold);
+	color: var(--dark);
+	border-color: var(--dark);
+}
+.btn-primary:hover{
+	background-color: var(--white);
+	color:var(--dark);
+	border-color: var(--gold);
+}
+.btn-secondary{
+	background-color: var(--dark);
+}
+.btn-gold{
+	background-color: var(--gold);
+	color:var(--dark);
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.yoimagen{
+	margin-top: -50px;
+	border: 2px solid #ddd;
+}
+
